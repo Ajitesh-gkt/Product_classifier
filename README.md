@@ -1,7 +1,3 @@
-Here's a sample README file for your **Product Classifier** project:
-
----
-
 # Product Classifier
 
 This repository contains a **Product Classifier** application designed to classify product images into predefined categories. It leverages a convolutional neural network (CNN) model trained from scratch and provides an API endpoint for image classification using **FastAPI**.
