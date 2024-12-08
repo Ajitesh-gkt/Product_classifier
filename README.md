@@ -57,6 +57,9 @@ uvicorn app.main:app --reload
 - Upload an image through the API's `/predict` endpoint to receive the predicted category.
 - Use the provided training script to fine-tune the model with a larger dataset.
 
+## Dataset link
+- https://www.kaggle.com/datasets/asaniczka/amazon-products-dataset-2023-1-4m-products
+
 ## Example Request
 
 ### Request
@@ -83,8 +86,3 @@ curl -X POST "http://127.0.0.1:8000/predict/" \
 - Add support for multilingual product category names.
 - Incorporate additional features like bounding box detection and image preprocessing.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
